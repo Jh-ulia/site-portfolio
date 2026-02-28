@@ -1,0 +1,431 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Jhulia da Costa - Portfólio de Design</title>
+    <meta name="description"
+        content="Portfólio de Jhulia da Costa. Graduanda em Design explorando o universo de UI/UX, Branding e criatividade visual.">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Bricolage+Grotesque:opsz,wght@12..96,200..800&family=Fira+Sans:ital,wght@0,100;0,300;0,400;0,700&family=Lato:wght@400;700&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+
+    <!-- ===== GRID OVERLAY (decorative) ===== -->
+    <div class="grid-overlay" aria-hidden="true"></div>
+
+    <!-- ===== SPINNING STARS (decorative) ===== -->
+    <img src="assets/spin-star.png" class="spin-star star-1" alt="" aria-hidden="true">
+    <img src="assets/spin-star.png" class="spin-star star-2" alt="" aria-hidden="true">
+    <img src="assets/spin-star.png" class="spin-star star-3" alt="" aria-hidden="true">
+    <img src="assets/spin-star.png" class="spin-star star-4" alt="" aria-hidden="true">
+
+    <!-- ===== DECORATIVE LINES ===== -->
+    <div class="deco-line-right" aria-hidden="true"></div>
+    <div class="deco-line-left" aria-hidden="true"></div>
+
+    <!-- ===== LOGO ===== -->
+    <header class="site-header" id="top">
+        <div class="logo">
+            <span class="logo-text">JH</span><span class="logo-star">★</span><span class="logo-text">ULIA</span>
+        </div>
+    </header>
+
+    <!-- ===== HERO SECTION ===== -->
+    <section class="hero" id="hero">
+        <div class="hero-content">
+            <div class="hero-badge">Projetando o futuro (e o meu PCC)</div>
+            <h1 class="hero-title">Graduanda em Design explorando o universo de UI/UX, Branding e tudo que envolve
+                criatividade visual.</h1>
+            <p class="hero-subtitle">Aqui você encontra meus experimentos, estudos de caso e ilustrações favoritas.</p>
+            <div class="hero-buttons">
+                <a href="https://wa.me/5548998215095" class="btn btn-primary" target="_blank" rel="noopener">Vamos
+                    conversar?</a>
+                <a href="#branding" class="btn btn-primary">Explorar projetos</a>
+            </div>
+        </div>
+    </section>
+
+    <!-- ===== SCROLL INDICATOR ===== -->
+    <div class="scroll-indicator" id="scroll-indicator">
+        <span>Arraste para baixo</span>
+        <span class="scroll-line"></span>
+        <svg class="scroll-arrow" width="30" height="48" viewBox="0 0 30 48" fill="none">
+            <path d="M15 0 L15 44 M5 34 L15 44 L25 34" stroke="#eee" stroke-width="2" fill="none" />
+        </svg>
+        <span class="scroll-line"></span>
+        <span>Para ver meus trabalhos</span>
+    </div>
+
+    <!-- ===== BRANDING SECTION ===== -->
+    <section class="section branding" id="branding">
+        <div class="container">
+            <div class="section-header">
+                <h2 class="section-title">Branding</h2>
+                <div class="section-line"></div>
+            </div>
+            <p class="section-desc">Estratégia transformada em identidade visual, com logo, sistema e aplicações
+                consistentes em cada ponto de contato.</p>
+
+            <div class="project-featured">
+                <div class="project-featured-image">
+                    <img src="assets/zeruz-branding.png" alt="Branding Zeruz IA" loading="lazy">
+                </div>
+                <div class="project-featured-info">
+                    <div class="project-text">
+                        <h3>Branding Zeruz IA</h3>
+                        <p>Desenvolvimento de uma identidade visual para uma empresa de Inteligência artificial para o
+                            setor imobiliário.</p>
+                    </div>
+                    <div class="project-tags">
+                        <span class="tag">Brandbook</span>
+                        <span class="tag">Branding</span>
+                        <span class="tag">Posicionamento</span>
+                    </div>
+                    <a href="#" class="btn btn-explore btn-wide">Explorar Projeto</a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- ===== EXPERIÊNCIAS DIGITAIS ===== -->
+    <section class="section digital" id="digital">
+        <div class="container">
+            <div class="section-header">
+                <h2 class="section-title">Experiências Digitais</h2>
+                <div class="section-line"></div>
+            </div>
+            <div class="section-desc-box">
+                <p class="section-desc">Onde a pesquisa encontra a interface. Projetos desenvolvidos com rigor
+                    metodológico, foco em acessibilidade e estratégias centradas no humano para resolver problemas
+                    reais.</p>
+            </div>
+
+            <div class="projects-grid-3">
+                <!-- Card 1: Cientistas do Mar -->
+                <div class="project-card">
+                    <div class="project-card-image">
+                        <img src="assets/cientistas-do-mar.png" alt="Cientistas do Mar" loading="lazy">
+                    </div>
+                    <div class="project-card-info">
+                        <h3>Cientistas do Mar</h3>
+                        <p>Ciência cidadã na palma da mão: design para conservação ambiental</p>
+                        <div class="project-tags">
+                            <span class="tag">APP</span>
+                            <span class="tag">UX/UI</span>
+                            <span class="tag">UX Research</span>
+                            <span class="tag">Prototipação</span>
+                        </div>
+                        <a href="#" class="btn btn-explore">Explorar Projeto</a>
+                    </div>
+                </div>
+
+                <!-- Card 2: Muita Calma -->
+                <div class="project-card">
+                    <div class="project-card-image">
+                        <img src="assets/muita-calma.png" alt="Muita Calma e-commerce" loading="lazy">
+                    </div>
+                    <div class="project-card-info">
+                        <h3>Muita Calma e-commerce</h3>
+                        <p>UX além do clique: aplicando a teoria de Donald Norman para reduzir a ansiedade de compra.
+                        </p>
+                        <div class="project-tags">
+                            <span class="tag">APP</span>
+                            <span class="tag">Design emocional</span>
+                            <span class="tag">Acessibilidade</span>
+                        </div>
+                        <a href="#" class="btn btn-explore">Explorar Projeto</a>
+                    </div>
+                </div>
+
+                <!-- Card 3: Lemme Grow -->
+                <div class="project-card">
+                    <div class="project-card-image">
+                        <img src="assets/lemme-grow.png" alt="Lemme Grow" loading="lazy">
+                    </div>
+                    <div class="project-card-info">
+                        <h3>Lemme Grow</h3>
+                        <p>Do papel para a prática: gamificando a metodologia de crescimento digital.</p>
+                        <div class="project-tags">
+                            <span class="tag">WebApp</span>
+                            <span class="tag">Product Design</span>
+                            <span class="tag">Prototipação</span>
+                        </div>
+                        <a href="#" class="btn btn-explore">Explorar Projeto</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- ===== DESIGN VISUAL ===== -->
+    <section class="section visual" id="visual">
+        <div class="container">
+            <div class="section-header">
+                <h2 class="section-title">Design Visual</h2>
+                <div class="section-line"></div>
+            </div>
+            <p class="section-desc">Traduzindo conceitos em imagens. Projetos que exploram a ilustração, a tipografia e
+                o movimento para criar narrativas visuais.</p>
+
+            <!-- Featured: Sons da Lagoa -->
+            <div class="project-featured">
+                <div class="project-featured-image">
+                    <img src="assets/sons-da-lagoa.png" alt="Lyric Video: Sons da Lagoa" loading="lazy">
+                </div>
+                <div class="project-featured-info">
+                    <div class="project-text">
+                        <h3>Lyric Video: Sons da Lagoa</h3>
+                        <p>Narrativa visual animada para reativar o engajamento no YouTube, traduzindo a identidade
+                            sonora em movimento.</p>
+                    </div>
+                    <div class="project-tags">
+                        <span class="tag">Motion Design</span>
+                        <span class="tag">Edição</span>
+                        <span class="tag">Planejamento</span>
+                    </div>
+                    <a href="#" class="btn btn-explore btn-wide">Explorar Projeto</a>
+                </div>
+            </div>
+
+            <!-- 3-col: Dwight, Nívea, Infográfico -->
+            <div class="projects-grid-3">
+                <div class="project-card">
+                    <div class="project-card-image">
+                        <img src="assets/dwight-gravity-falls.png" alt="Dwight X Gravity Falls" loading="lazy">
+                    </div>
+                    <div class="project-card-info">
+                        <h3>Dwight X Gravity Falls</h3>
+                        <p>Estudo de personagem unindo a personalidade de The Office com o estilo visual Disney.</p>
+                        <div class="project-tags">
+                            <span class="tag">Ilustração</span>
+                            <span class="tag">Mashup</span>
+                            <span class="tag">Estudo de formas</span>
+                        </div>
+                        <a href="#" class="btn btn-explore">Explorar Projeto</a>
+                    </div>
+                </div>
+
+                <div class="project-card">
+                    <div class="project-card-image">
+                        <img src="assets/nivea-billboard.png" alt="Peça publicitária Nívea" loading="lazy">
+                    </div>
+                    <div class="project-card-info">
+                        <h3>Peça publicitária Nívea</h3>
+                        <p>Recriar uma peça gráfica da marca Nivea, promovendo um produto que ressalta o brilho natural
+                            da pele.</p>
+                        <div class="project-tags">
+                            <span class="tag">Manipulação de Imagem</span>
+                            <span class="tag">Publicidade</span>
+                        </div>
+                        <a href="#" class="btn btn-explore">Explorar Projeto</a>
+                    </div>
+                </div>
+
+                <div class="project-card">
+                    <div class="project-card-image">
+                        <img src="assets/infografico-tipografico.png" alt="Infográfico Tipográfico" loading="lazy">
+                    </div>
+                    <div class="project-card-info">
+                        <h3>Infográfico Tipográfico</h3>
+                        <p>Infográfico detalhando o desenvolvimento histórico e técnico da fonte open source Bricolage
+                            Grotesk.</p>
+                        <div class="project-tags">
+                            <span class="tag">Design da Informação</span>
+                            <span class="tag">Macrotipografia</span>
+                        </div>
+                        <a href="#" class="btn btn-explore">Explorar Projeto</a>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Bottom row: Helena + Laboratório -->
+            <div class="projects-grid-2">
+                <div class="project-card project-card-wide">
+                    <div class="project-card-image project-card-image-wide">
+                        <img src="assets/helena-balao.png" alt="Helena e o balão - Publicação Digital" loading="lazy">
+                    </div>
+                    <div class="project-card-info">
+                        <h3>Helena e o balão - Publicação Digital</h3>
+                        <p>Publicação digital interativa desenvolvida em parceria com o Quimidex (UFSC). Uma narrativa
+                            visual que ensina o comportamento dos balões de forma lúdica para o público infantil.</p>
+                        <div class="project-tags-inline">
+                            <span class="tag">Livro Interativo</span>
+                            <span class="tag">Publicação Digital</span>
+                            <a href="#" class="btn btn-explore">Explorar Projeto (em breve)</a>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="project-card">
+                    <div class="project-card-image">
+                        <img src="assets/laboratorio-gmt.png" alt="Laboratório GMT" loading="lazy">
+                    </div>
+                    <div class="project-card-info">
+                        <h3>Laboratório GMT</h3>
+                        <p>Infográfico institucional para apresentar o departamento de gestão, mídias e tecnologia da
+                            Universidade Federal de Santa Catarina.</p>
+                        <div class="project-tags">
+                            <span class="tag">Design da Informação</span>
+                            <span class="tag">Infográfico</span>
+                        </div>
+                        <a href="#" class="btn btn-explore">Explorar Projeto</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- ===== SOBRE MIM ===== -->
+    <section class="section about" id="about">
+        <div class="container">
+            <div class="section-header">
+                <h2 class="section-title">Sobre mim</h2>
+                <div class="section-line"></div>
+            </div>
+
+            <div class="about-content">
+                <div class="about-text">
+                    <p>Olá! Sou designer no último semestre da UFSC e uma eterna aprendiz. Acredito que o design exige
+                        constante evolução, por isso, estou sempre explorando novas áreas, seja através de cursos
+                        formais ou desbravando técnicas novas em tutoriais online.</p>
+                    <p>Ao investigar o mercado, algumas áreas chamaram minha atenção, como branding e UX/UI. Desde
+                        então, direcionei meus estudos e participações em eventos para me especializar nesse caminho.
+                    </p>
+                    <p>Busco agora oportunidades para aplicar essa vontade de aprender em um ambiente colaborativo real.
+                    </p>
+                </div>
+                <div class="about-photo">
+                    <img src="assets/profile-photo.png" alt="Jhulia da Costa" loading="lazy">
+                </div>
+            </div>
+
+            <div class="education">
+                <div class="education-logo">
+                    <img src="assets/ufsc-logo.png" alt="UFSC" loading="lazy">
+                </div>
+                <div class="education-info">
+                    <div class="education-top">
+                        <span class="education-course">Design</span>
+                        <span class="education-period">2022.2 - 2026.1</span>
+                    </div>
+                    <span class="education-school">Universidade Federal de Santa Catarina</span>
+                </div>
+            </div>
+
+            <h2 class="section-title skills-title">Skills</h2>
+            <div class="skills-grid">
+                <div class="skill-item">
+                    <span class="skill-name">Photoshop</span>
+                    <div class="skill-bar">
+                        <div class="skill-fill" style="width: 87%"></div>
+                    </div>
+                </div>
+                <div class="skill-item">
+                    <span class="skill-name">Figma</span>
+                    <div class="skill-bar">
+                        <div class="skill-fill" style="width: 83%"></div>
+                    </div>
+                </div>
+                <div class="skill-item">
+                    <span class="skill-name">Illustrator</span>
+                    <div class="skill-bar">
+                        <div class="skill-fill" style="width: 100%"></div>
+                    </div>
+                </div>
+                <div class="skill-item">
+                    <span class="skill-name">WordPress</span>
+                    <div class="skill-bar">
+                        <div class="skill-fill" style="width: 73%"></div>
+                    </div>
+                </div>
+                <div class="skill-item">
+                    <span class="skill-name">Premiere</span>
+                    <div class="skill-bar">
+                        <div class="skill-fill" style="width: 57%"></div>
+                    </div>
+                </div>
+                <div class="skill-item">
+                    <span class="skill-name">HTML/CSS</span>
+                    <div class="skill-bar">
+                        <div class="skill-fill" style="width: 62%"></div>
+                    </div>
+                </div>
+                <div class="skill-item">
+                    <span class="skill-name">After Effects</span>
+                    <div class="skill-bar">
+                        <div class="skill-fill" style="width: 72%"></div>
+                    </div>
+                </div>
+                <div class="skill-item">
+                    <span class="skill-name">Inglês</span>
+                    <div class="skill-bar">
+                        <div class="skill-fill" style="width: 5%"></div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- ===== CONTATO / FOOTER ===== -->
+    <footer class="footer" id="contato">
+        <div class="footer-grid-overlay" aria-hidden="true"></div>
+
+        <div class="footer-content">
+            <div class="footer-left">
+                <p class="footer-available">Estou disponível para novos projetos no momento. Entre em contato comigo e
+                    marcamos uma conversa.</p>
+
+                <div class="footer-contact">
+                    <a href="mailto:jhuliiia2201@gmail.com" class="contact-link">jhuliiia2201@gmail.com</a>
+                    <a href="tel:+5548998215095" class="contact-link">+55 48 99821-5095</a>
+                    <a href="https://linkedin.com/in/jhuliadacost" class="contact-link" target="_blank"
+                        rel="noopener">jhuliadacost</a>
+                </div>
+
+                <div class="footer-social">
+                    <a href="https://linkedin.com/in/jhuliadacost" target="_blank" rel="noopener" aria-label="LinkedIn"
+                        class="social-icon">
+                        <svg width="45" height="45" viewBox="0 0 45 45" fill="none">
+                            <circle cx="22.5" cy="22.5" r="22.5" fill="#1F4AD5" />
+                            <path
+                                d="M16.5 19.5H13.5V31.5H16.5V19.5ZM15 13.5C14.17 13.5 13.5 14.17 13.5 15C13.5 15.83 14.17 16.5 15 16.5C15.83 16.5 16.5 15.83 16.5 15C16.5 14.17 15.83 13.5 15 13.5ZM25.5 19.2C24 19.2 23.02 19.95 22.5 20.7V19.5H19.5V31.5H22.5V25.2C22.5 23.7 23.5 22.8 24.75 22.8C26 22.8 26.7 23.7 26.7 25.2V31.5H29.7V24.6C29.7 21.6 28 19.2 25.5 19.2Z"
+                                fill="white" />
+                        </svg>
+                    </a>
+                    <a href="https://www.behance.net/jhuliadacost" target="_blank" rel="noopener" aria-label="Behance"
+                        class="social-icon">
+                        <svg width="45" height="45" viewBox="0 0 45 45" fill="none">
+                            <circle cx="22.5" cy="22.5" r="22.5" fill="#1F4AD5" />
+                            <path
+                                d="M18 15H12V30H18.3C20.7 30 22.5 28.5 22.5 26.25C22.5 24.75 21.6 23.55 20.25 23.1C21.3 22.5 21.9 21.6 21.9 20.4C21.9 18.3 20.1 15 18 15ZM17.7 21.9H14.7V17.7H17.7C18.9 17.7 19.5 18.6 19.5 19.8C19.5 21 18.9 21.9 17.7 21.9ZM18 27.3H14.7V24.3H18C19.2 24.3 20.1 25.05 20.1 26.1C20.1 27 19.2 27.3 18 27.3ZM30 18H25.5V16.5H30V18ZM27.75 20.4C25.2 20.4 23.4 22.2 23.4 24.75C23.4 27.3 25.2 29.7 27.75 29.7C29.7 29.7 30.9 28.65 31.5 27H29.4C29.1 27.6 28.5 27.9 27.75 27.9C26.55 27.9 25.8 27 25.65 25.8H31.65C31.8 23.1 30.45 20.4 27.75 20.4ZM25.65 24.3C25.8 23.25 26.55 22.35 27.75 22.35C28.8 22.35 29.55 23.1 29.7 24.3H25.65Z"
+                                fill="white" />
+                        </svg>
+                    </a>
+                </div>
+            </div>
+
+            <div class="footer-right">
+                <div class="footer-cta">
+                    <span class="cta-question">?</span>
+                    <span class="cta-vamos">Vamos</span>
+                    <span class="cta-conversar">Conversar</span>
+                </div>
+                <img src="assets/spin-star.png" class="spin-star footer-star" alt="" aria-hidden="true">
+            </div>
+        </div>
+
+        <div class="footer-divider"></div>
+        <p class="footer-copyright">Jhulia. Alguns direitos reservados</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+
+</html>
