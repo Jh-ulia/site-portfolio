@@ -3,7 +3,9 @@
    ============================================ */
 
 /* ===== RESET & ROOT ===== */
-*, *::before, *::after {
+*,
+*::before,
+*::after {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
@@ -65,20 +67,16 @@ a {
     pointer-events: none;
     opacity: 0.04;
     background:
-        repeating-linear-gradient(
-            to right,
+        repeating-linear-gradient(to right,
             transparent,
             transparent calc(100% / 33 - 1px),
-            rgba(255,255,255,0.5) calc(100% / 33 - 1px),
-            rgba(255,255,255,0.5) calc(100% / 33)
-        ),
-        repeating-linear-gradient(
-            to bottom,
+            rgba(255, 255, 255, 0.5) calc(100% / 33 - 1px),
+            rgba(255, 255, 255, 0.5) calc(100% / 33)),
+        repeating-linear-gradient(to bottom,
             transparent,
             transparent 52px,
-            rgba(255,255,255,0.5) 52px,
-            rgba(255,255,255,0.5) 53px
-        );
+            rgba(255, 255, 255, 0.5) 52px,
+            rgba(255, 255, 255, 0.5) 53px);
 }
 
 /* ===== SPINNING STARS ===== */
@@ -88,13 +86,17 @@ a {
     height: 280px;
     z-index: 1;
     pointer-events: none;
-    animation: spin 20s linear infinite;
     opacity: 0.9;
 }
 
 @keyframes spin {
-    from { transform: rotate(0deg); }
-    to { transform: rotate(360deg); }
+    from {
+        transform: rotate(0deg);
+    }
+
+    to {
+        transform: rotate(360deg);
+    }
 }
 
 .star-1 {
@@ -152,19 +154,11 @@ a {
 
 .logo {
     display: inline-block;
-    font-family: var(--font-heading);
-    font-size: 32px;
-    font-weight: 700;
-    color: var(--text-primary);
-    letter-spacing: 4px;
 }
 
-.logo-star {
-    color: var(--accent-blue);
-    font-size: 14px;
-    position: relative;
-    top: -8px;
-    margin: 0 -2px;
+.logo-img {
+    height: 24px;
+    width: auto;
 }
 
 /* ===== HERO SECTION ===== */
@@ -177,10 +171,13 @@ a {
     justify-content: center;
     text-align: center;
     padding: 60px 20px 0;
+    width: 100%;
 }
 
 .hero-content {
     max-width: 970px;
+    width: 100%;
+    margin: 0 auto;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -249,11 +246,10 @@ a {
 .btn-explore {
     background: rgba(31, 74, 213, 0.6);
     color: white;
-    padding: 8px 20px;
+    padding: 8px 12px;
     border-radius: var(--radius);
-    font-size: 16px;
+    font-size: 14px;
     width: 100%;
-    height: 36px;
     margin-top: auto;
 }
 
@@ -295,8 +291,15 @@ a {
 }
 
 @keyframes bounce {
-    0%, 100% { transform: translateY(0); }
-    50% { transform: translateY(8px); }
+
+    0%,
+    100% {
+        transform: translateY(0);
+    }
+
+    50% {
+        transform: translateY(8px);
+    }
 }
 
 /* ===== SECTION COMMON ===== */
@@ -347,6 +350,7 @@ a {
     display: flex;
     flex-direction: column;
     background: transparent;
+    height: 100%;
 }
 
 .project-card-image {
@@ -400,6 +404,7 @@ a {
     flex-wrap: wrap;
     gap: 8px;
     margin-top: 4px;
+    align-items: center;
 }
 
 .project-tags-inline {
@@ -420,12 +425,12 @@ a {
     display: inline-flex;
     align-items: center;
     padding: 8px 12px;
-    border: 1px solid rgba(238, 238, 238, 0.4);
-    border-radius: var(--radius-pill);
+    border: none;
+    border-radius: var(--radius);
     font-family: var(--font-body);
     font-size: 14px;
-    color: var(--text-primary);
-    background: transparent;
+    color: #061235;
+    background: #BFCEFF;
     white-space: nowrap;
 }
 
@@ -435,6 +440,7 @@ a {
     grid-template-columns: repeat(3, 1fr);
     gap: 24px;
     margin-bottom: 48px;
+    align-items: stretch;
 }
 
 .projects-grid-2 {
@@ -647,20 +653,16 @@ a {
     pointer-events: none;
     opacity: 0.03;
     background:
-        repeating-linear-gradient(
-            to right,
+        repeating-linear-gradient(to right,
             transparent,
             transparent calc(100% / 33 - 1px),
-            rgba(255,255,255,0.5) calc(100% / 33 - 1px),
-            rgba(255,255,255,0.5) calc(100% / 33)
-        ),
-        repeating-linear-gradient(
-            to bottom,
+            rgba(255, 255, 255, 0.5) calc(100% / 33 - 1px),
+            rgba(255, 255, 255, 0.5) calc(100% / 33)),
+        repeating-linear-gradient(to bottom,
             transparent,
             transparent 30px,
-            rgba(255,255,255,0.5) 30px,
-            rgba(255,255,255,0.5) 31px
-        );
+            rgba(255, 255, 255, 0.5) 30px,
+            rgba(255, 255, 255, 0.5) 31px);
 }
 
 .footer-content {
@@ -854,7 +856,10 @@ a {
         top: -50px;
     }
 
-    .star-1, .star-2, .star-3, .star-4 {
+    .star-1,
+    .star-2,
+    .star-3,
+    .star-4 {
         width: 180px;
         height: 180px;
     }
@@ -874,7 +879,8 @@ a {
         align-items: center;
     }
 
-    .section-title, .skills-title {
+    .section-title,
+    .skills-title {
         font-size: 36px;
     }
 
@@ -931,7 +937,10 @@ a {
         display: none;
     }
 
-    .star-1, .star-2, .star-3, .star-4 {
+    .star-1,
+    .star-2,
+    .star-3,
+    .star-4 {
         width: 120px;
         height: 120px;
     }

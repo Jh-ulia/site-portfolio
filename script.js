@@ -50,7 +50,7 @@ document.addEventListener('DOMContentLoaded', () => {
         anchor.addEventListener('click', function (e) {
             const targetId = this.getAttribute('href');
             if (targetId === '#') return;
-            
+
             const targetEl = document.querySelector(targetId);
             if (targetEl) {
                 e.preventDefault();
@@ -62,14 +62,13 @@ document.addEventListener('DOMContentLoaded', () => {
         });
     });
 
-    // ===== PARALLAX EFFECT ON STARS =====
-    const stars = document.querySelectorAll('.spin-star:not(.footer-star)');
-    
+    // ===== SPIN STARS ON SCROLL =====
+    const stars = document.querySelectorAll('.spin-star');
     window.addEventListener('scroll', () => {
         const scrollY = window.scrollY;
         stars.forEach((star, index) => {
-            const speed = 0.1 + (index * 0.05);
-            star.style.transform = `translateY(${scrollY * speed}px) rotate(${scrollY * 0.05}deg)`;
+            const speed = 0.15 + (index * 0.05);
+            star.style.transform = `rotate(${scrollY * speed}deg)`;
         });
     }, { passive: true });
 
