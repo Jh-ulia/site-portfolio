@@ -1,0 +1,9 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 200 200" fill="none">
+  <!-- Magic wand -->
+  <rect x="90" y="60" width="24" height="120" rx="12" transform="rotate(35 102 120)"
+    fill="rgba(22,70,217,0.8)" stroke="white" stroke-width="2"/>
+  <!-- Sparkle stars -->
+  <path d="M60 50 L63 40 L66 50 L76 47 L66 50 L63 60 L60 50 L50 47 Z" fill="#3B6BF5"/>
+  <path d="M40 80 L42 73 L44 80 L51 78 L44 80 L42 87 L40 80 L33 78 Z" fill="#3B6BF5"/>
+  <path d="M80 30 L83 20 L86 30 L96 27 L86 30 L83 40 L80 30 L70 27 Z" fill="#3B6BF5"/>
+</svg>
