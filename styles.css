@@ -167,8 +167,8 @@ a {
 }
 
 .logo-img {
-    height: 36px;
-    width: auto;
+    width: 164px;
+    height: 62px;
 }
 
 /* ===== HERO SECTION ===== */
@@ -997,6 +997,7 @@ a {
         width: 100%;
         max-width: 319px;
         height: 300px;
+        margin: 0 auto;
     }
 
     .education {
@@ -1052,6 +1053,10 @@ a {
 }
 
 @media (max-width: 768px) {
+    .cursor-circle {
+        display: none !important;
+    }
+
     .hero-title {
         font-size: 32px;
     }
@@ -1109,9 +1114,11 @@ a {
     }
 
     .cta-question {
-        font-size: 100px;
-        top: -30px;
-        right: 0;
+        font-size: 80px;
+        top: 20px;
+        right: -30px;
+        left: auto;
+        transform: none;
     }
 
     .footer-right {
@@ -1157,7 +1164,8 @@ a {
     }
 
     .deco-line-right,
-    .deco-line-left {
+    .deco-line-left,
+    .star-visual {
         display: none;
     }
 
