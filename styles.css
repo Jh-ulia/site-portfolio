@@ -148,7 +148,7 @@ a {
     top: 0;
     left: -100px;
     width: 360px;
-    height: 1030px;
+    height: 885px;
     border-right: 2px dashed rgba(22, 70, 217, 0.3);
     z-index: 1;
     pointer-events: none;
@@ -1052,6 +1052,15 @@ a {
     }
 }
 
+@media (max-width: 1280px) {
+
+    .star-visual,
+    .deco-line-right,
+    .deco-line-left {
+        display: none;
+    }
+}
+
 @media (max-width: 768px) {
     .cursor-circle {
         display: none !important;
@@ -1161,12 +1170,6 @@ a {
     .about-divider,
     .footer-divider {
         width: calc(100% - 40px);
-    }
-
-    .deco-line-right,
-    .deco-line-left,
-    .star-visual {
-        display: none;
     }
 
     .star-1,
